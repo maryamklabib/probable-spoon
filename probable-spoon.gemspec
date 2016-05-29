@@ -1,6 +1,6 @@
 Gem::Specification.new do |ps|
 	ps.name		= 'probable-spoon'
-	ps.version 	= '0.0.0'
+	ps.version 	= '0.0.1'
 	ps.executables << 'probable-spoon'
 	ps.date 	= '2016-05-24'
 	ps.summary	= 'If you must you can use this gem'
