@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'probable-spoon'
+puts ProbableSpoon.type(ARGV[0])

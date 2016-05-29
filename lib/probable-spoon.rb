@@ -1,5 +1,8 @@
+require 'probable-spoon/utensils.rb'
+
 class ProbableSpoon
-	def self.purpose
-		puts "The only purpose this gem serves is to print this sentence."
+	def self.type(culture = "Chinese")
+		utensils = Utensils.new(culture)
+		utensils.type
 	end
 end
